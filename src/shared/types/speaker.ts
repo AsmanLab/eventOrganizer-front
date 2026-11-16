@@ -1,0 +1,21 @@
+export type TSpeaker = {
+  id: string;
+  festival: string;
+  last_name: string;
+  first_name: string;
+  middle_name?: string;
+  phone_number: string;
+  email: string;
+  country: string;
+  city: string;
+  occupation?: string;
+  achievements?: string;
+  topic: string;
+  speech_duration: string;
+  preferred_time: string;
+  equipment_needed: string;
+  ticket_price: string;
+  is_confirmed?: boolean;
+  type?: "speaker";
+  created_at: Date;
+};
